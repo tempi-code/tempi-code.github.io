@@ -10,19 +10,20 @@
     <header>
         <h1><a href="index.html">ITC PROJECT</a></h1>
         <blockquote>by Kenmario O. Noschese</blockquote>
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
     </header>
+    <nav class="container" id="menu">
+        <div class="links">
+            <a href="convert.html" class="convert">Conversion</a>
+            <a href="factorial.html" class="factorial">Factorial, Sum and Average Calculator</a>
+            <a href="income.html" class="income">Income Tax Calculator</a>
+            <a href="payroll.html" class="payroll">Payroll Calculator</a>
+        </div>
+    </nav>
     <div class="text">
         <h2>CS 1130 - Introduction to Computing</h2>
-        <p>This is the website for viewing HTML, Javascript Programming and CSS Examples for students who are taking the Introduction to Computing Class (CS 1130) under the Computer Studies Division, School of Arts and Sciences of the Ateneo de Davao University. Simple Examples involving Basic HTML, Javascript Functions, User Interaction, Mathematical Calculations, Simple Styling and Page Layouts are shown.
-        </p>
+        <p>This site is a demonstration of my growing knowledge and skills in web development, showcasing my work with HTML, CSS, and JavaScript. Designed as the final ITC project, the website highlights key features such as interactive elements, responsive design, and dynamic functionality.<br><br>The website has 4 parts; convertion, factorial and sum and average, income calculator, and a simple payroll. The convertion asks for user input, and returns the appropriate conversion value based on the selection. The factorial and sum asks for user input and returns the factorial or the sum and after "key up". The income calculator asks for user input and returns the income tax based on several criterias and lastly there is the simple payroll.</p>
     </div>
-    <div class="container">
-        <a href="convert.html" class="convert">Conversion</a>
-        <a href="factorial.html" class="factorial">Factorial, Sum and Average Calculator</a>
-        <a href="income.html" class="income">Income Tax Calculator</a>
-        <a href="payroll.html" class="payroll">Payroll Calculator</a>
-    </div> 
-        
-    
+    <script src="index.js"></script>
 </body>
 </html>
