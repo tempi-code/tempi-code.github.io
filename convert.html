@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>Blank template</title>
+
+        <link rel="stylesheet" href="convert.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">HOME</a></h1>
+        
+            <button class="menu-button" onclick="toggleMenu()">☰</button>
+            
+            <nav id="menu" class="menu">
+                <a href="convert.html" class="convert-head">Conversion</a>
+                <a href="factorial.html">Factorial, Sum and Average Calculator</a>
+                <a href="income.html">Income Tax Calculator</a>
+                <a href="payroll.html">Payroll Calculator</a>
+            </nav>
+        </header>
+        <div class="main-container">
+            <h1>Conversion Calculator</h1>
+            <div class="convert">
+                <label>Enter a number: </label>
+                <input id="originalNumber" type="number" placeholder="123"></input>
+                <select id="selection">
+                    <option value='1'>Celsius to Fahrenheit</option>
+                    <option value='2'>Fahrenheit to Celsius</option>
+                    <option value='3'>Feet to Meters</option>
+                    <option value='4'>Meters to Feet</option>
+                </select>
+                
+            </div>
+            <div class="container">
+                <button id="convertButton">Convert</button>
+            </div>
+            <div class="container">
+                <h3>Result: </h3>
+                <p id="result"></p>
+            </div>
+        </div>
+
+        
+        <script src="convert.js"></script>
+        
+    </body>
+
+</html>

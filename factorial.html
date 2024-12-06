@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="factorial.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">HOME</a></h1>
+    
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        
+        <nav id="menu" class="menu">
+            <a href="convert.html">Conversion</a>
+            <a href="factorial.html" class="factorial-head">Factorial, Sum and Average Calculator</a>
+            <a href="income.html">Income Tax Calculator</a>
+            <a href="payroll.html">Payroll Calculator</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="factorial">
+            <h1>Factorial</h1>
+                <div class="input">
+                    <input type="number" placeholder="Enter a Number" id="numberInput">
+                </div>
+                <div class="output">
+                    <label>Result:</label>
+                    <h3 id="result" class="result"></h3>
+                </div>
+        </div>
+        <div class="sum">
+            <h1>Sum & Average</h1>
+                <div class="input">
+                    <input type="number" placeholder="Enter a Number" id="inputnumber">
+                </div>
+                <div class="sumoutput">
+                    <label>Sum:</label>
+                    <h3 id="sumresult" class="sumresult"></h3>
+                </div>
+                <div class="aveoutput">
+                    <label>Average:</label>
+                    <h3 id="average" class="average"></h3>
+                </div>
+        </div>
+    </div>
+
+    <script src="factorial.js"></script>
+</body>
+</html>

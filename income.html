@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="income.css">
+</head> 
+<body>
+    <header>
+        <h1><a href="index.html">HOME</a></h1>
+    
+        <button class="menu-button" onclick="toggleMenu()">☰</button>
+        
+        <nav id="menu" class="menu">
+            <a href="convert.html">Conversion</a>
+            <a href="factorial.html">Factorial, Sum and Average Calculator</a>
+            <a href="income.html" class="income-head">Income Tax Calculator</a>
+            <a href="payroll.html">Payroll Calculator</a>
+        </nav>
+    </header>
+    <div class="maincontainer">
+        <div class="titlecontainer">
+            <h1>Income <br>Tax <br>Calculator</h1>
+        </div>
+        <div class="innercontainer">
+            <h3>Input Taxable Income</h3>
+            <input id="income" type="number" placeholder="123"></input>
+            <button id="calcIncome">Calculate Income</button>
+            <h3>Income Tax</h3>
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="income.js"></script>
+</body>
+</html>
